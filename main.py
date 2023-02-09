@@ -5,11 +5,11 @@ OpenAI Demo
 """
 import os
 import openai
-import pkg
+import demo
 from langchain.llms import OpenAI
 
 OPENAI_API_KEY = "MY KEY"
-r = pkg.add(2.5, 10)
+r = demo.add(2.5, 10)
 print(r)
 
 # Demo: use openai.Completion.create
